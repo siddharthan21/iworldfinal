@@ -1,0 +1,71 @@
+.about{
+    max-width: 1200px;
+    margin:0 auto ;
+    text-align: center;
+    padding-top: 2rem;
+}
+.about > h1{
+    letter-spacing: 10px;
+    font-family: 'Borel', cursive;
+font-family: 'Handjet', cursive;
+}
+.about > h5{
+    font-size: 23px;
+    letter-spacing: 4px;
+    margin-top: 1rem;
+    font-family: 'Borel', cursive;
+font-family: 'Handjet', cursive;
+}
+.about > p{
+    font-size: 18px;
+    padding-top: 2rem;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.futher{
+    padding-top: 3rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.futher > h2{
+font-family: 'borel';
+font-weight: 600;
+}
+.futher > p {
+    font-family:serif;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    font-size: large;
+    font-weight: 500;
+}
+.manage{
+    max-width: 1200px;
+    padding-top: 2rem;
+    text-align:center;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+.manage > P{
+    padding: 10px;
+}
+.footerr{
+    background-color: #74B1CA;
+    padding: 2rem;
+    /* width: 100%; */
+    text-align: center;
+}
+@media only screen and (max-width: 800px) {
+
+    .about > h1{
+        font-size: 25px;
+    letter-spacing: 8px;
+
+    }    
+    .futher > p{
+        word-spacing: 9px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+}

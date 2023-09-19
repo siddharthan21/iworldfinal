@@ -1,0 +1,42 @@
+table, td, th {
+    border: 1px solid;
+  }
+  
+  table {
+    /* padding-top: 2rem; */
+    width: 100%;
+    border-collapse: collapse;
+  }
+  main{
+    max-width: 1200px;
+    margin:0 auto ;
+    text-align: left;
+    padding-top: 2.5rem;
+  }
+  th , td{
+    padding:10px 0;
+  }
+  h2{
+    padding: 2rem;
+  }
+  .back{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-style: italic;
+    border: 1px solid #74B1CA;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 5px;
+  }
+  .back:hover{
+    border: 2px solid #74B1CA;
+    box-shadow: 2px 2px 2px 2px #74B1CA;
+    transition: .3s;
+    border-radius: 5px;
+  }
+ .footerr{
+    background-color: #74B1CA;
+    padding: .7rem 0;
+    /* width: 100%; */
+    text-align: center;
+}
